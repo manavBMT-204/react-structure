@@ -1,7 +1,8 @@
 import React from "react";
+import { translations } from "../../../../assets/lang/lang";
 
 export function ComponentExample() {
   return (
-    <div>Hello, I am Component Example</div>
+    <div>{translations.EXAMPLE_TEXT}</div>
   );
 }
