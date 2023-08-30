@@ -1,9 +1,9 @@
 import React, { useContext } from "react";
 import { ComponentExample } from "./components";
 import { ComponentHeader } from "../../components";
-import { SvgIcons } from "../../common/SvgIcons";
 import { translations } from "../../assets/lang/lang";
 import { ThemeContext } from "../../common/ThemeProvider";
+import { SvgIcons } from "../../assets/icons";
 
 export function HomePage() {
   const { isDarkMode, toggleTheme } = useContext(ThemeContext); 
