@@ -1,3 +1,3 @@
 export const langAboutPage = {
-  ABOUT_PAGE: "About Page",
+  ABOUT_PAGE: 'About Page',
 };
