@@ -1,9 +1,9 @@
-import React, { useContext } from "react";
-import { ComponentExample } from "./components";
-import { ComponentHeader } from "../../components";
-import { translations } from "../../assets/lang/lang";
-import { ThemeContext } from "../../common/ThemeProvider";
-import { SvgIcons } from "../../assets/icons";
+import React, { useContext } from 'react';
+import { ComponentExample } from './components';
+import { ComponentHeader } from '../../components';
+import { translations } from '../../assets/lang/lang';
+import { ThemeContext } from '../../common/ThemeProvider';
+import { SvgIcons } from '../../assets/icons';
 
 export function HomePage() {
   const { isDarkMode, toggleTheme } = useContext(ThemeContext); 
@@ -19,7 +19,7 @@ export function HomePage() {
         <div className="text-4xl pt-10">HELLO WORLD</div>
         <div className="block">
           <button onClick={toggleTheme} className="bg-slate-100 shadow-md px-4 py-3">
-            {" "}
+            {' '}
             Switch Theme
           </button>
         </div>
